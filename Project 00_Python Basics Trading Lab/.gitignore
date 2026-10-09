@@ -1,0 +1,7 @@
+# Files created when the notebooks run
+output/
+__pycache__/
+.ipynb_checkpoints/
+
+# Module written by running the answer key (the student copy is your own work and is not ignored)
+solutions/trading_tools.py
