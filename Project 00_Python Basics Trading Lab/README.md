@@ -17,7 +17,7 @@ You build a small backtester for a **moving-average crossover** strategy, one st
 
 ## How to run
 
-1. Install Python 3.10 or newer, plus the packages below. Any Jupyter front end works: JupyterLab, Jupyter Notebook, or VS Code.
+1. Install Python 3 (tested with Python 3.11, NumPy 2.4, and matplotlib 3.11), plus the packages below. Use JupyterLab, Jupyter Notebook, or VS Code with the Jupyter extension.
 
    ```bash
    pip install numpy matplotlib notebook
