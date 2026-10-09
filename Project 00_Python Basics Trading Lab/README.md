@@ -67,7 +67,7 @@ By the end of the project you should be able to:
 3. Write conditional logic, loops, list comprehensions, and functions with docstrings, default arguments, and `lambda` (Parts 6–8).
 4. Model an account with a class and reject invalid orders with exceptions (Parts 9–10).
 5. Write a module, import it, and use the standard library (Part 11).
-6. Create, index, and reshape NumPy arrays, and use masks, axes, and vectorized calculations (Parts 12, 14).
+6. Create, index, and reshape NumPy arrays; use masks, axes, matrix operations, and vectorized calculations (Parts 12, 14).
 7. Load and clean CSV data, and save and reload arrays (Part 13).
 8. Plot data with the object-oriented matplotlib API (Part 15).
 9. Backtest a rule-based strategy without look-ahead bias, compare it with buy and hold, and explain why one simulated year is not enough evidence (Part 16).
@@ -75,7 +75,8 @@ By the end of the project you should be able to:
 ### Scope
 
 - **Included:** the Lecture 00 topics listed in the notebook's roadmap table. The project uses only NumPy and matplotlib, and the only file input is a CSV file.
-- **Mentioned only:** SciPy (imported in Lecture 00, not used here). pandas, `yfinance`, `backtrader`, and broker APIs are used in later lectures and are not needed here.
+- **Not practiced:** SciPy (Lecture 00 only imports it), and installation on specific operating systems or with Anaconda (use the pip command above).
+- **Later lectures:** pandas, `yfinance`, `backtrader`, and broker APIs are used in later lectures and are not needed here.
 - **Next step:** Lecture 01 (Data Handling) loads real prices with pandas. Stretch goal 6 in Part 17 points there.
 
 ## Regenerating the data
