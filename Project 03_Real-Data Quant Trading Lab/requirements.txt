@@ -1,0 +1,7 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+yfinance>=0.2.38
+jupyter>=1.0
+# Optional — only needed for the Module 9 pairs-trading extension:
+# statsmodels>=0.14
