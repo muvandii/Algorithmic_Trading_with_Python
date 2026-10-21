@@ -48,3 +48,13 @@ Tentative Course syllabus:
     - Example 2: Crypto Trading with Binance
     - Example 3: Forex Trading with IG
 
+
+---
+
+## Companion module: Event-Driven Intraday Trading
+
+A self-contained, hands-on five-lesson module on building and auditing an
+event-driven intraday backtester (bars and indexing, strategy state, liquidity
+sweeps / breaks of structure / fair value gaps, execution and risk, and a
+reusable engine) lives in [`Event_Driven_Intraday/`](Event_Driven_Intraday/).
+Start with `Event_Driven_Intraday/notebooks/00_module_overview.ipynb`.
