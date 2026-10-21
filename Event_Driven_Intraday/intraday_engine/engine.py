@@ -147,6 +147,10 @@ class BacktestEngine:
             fills = self.execution.flatten(last)
             self.logger.log("NOTE", "flattened open position at end of test",
                             timestamp=last.timestamp, index=last.index, qty=fills[0].qty if fills else 0.0)
+            ctx = Context(bar=last, history=self.data.window(last.index, last.index + 1),
+                          portfolio=self.portfolio, state=self.strategy.state)
+            for fill in fills:
+                self.strategy.on_fill(fill, ctx)   # keep the state machine truthful
             self.portfolio.mark(last.timestamp, last.close, last.index)
         self.logger.log("NOTE", "backtest end", timestamp=self.data.timestamps[-1], index=self.data.n_bars - 1)
         self.strategy.on_finish(self.portfolio, self.logger)
